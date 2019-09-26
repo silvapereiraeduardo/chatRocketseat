@@ -1,0 +1,24 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat Rocketseat",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "chat",
+    "rocketseat",
+    "socket.io",
+    "express",
+    "ejs",
+    "Real time"
+  ],
+  "author": "Eduardo Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
