@@ -18,7 +18,7 @@
     </form>
 
     <script type="text/javascript">
-      var socket = io("https://chat-rocketseat.herokuapp.com:3000");
+      var socket = io("https://chat-rocketseat.herokuapp.com:<%= PORT %>");
 
       function renderMessage(message) {
         $(".messages").append(
